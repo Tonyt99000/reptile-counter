@@ -1,0 +1,71 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacPSSWogGrncTljQHNIhO78S8MPF3KzUf8Q&usqp=CAU");
+    background-size: cover;
+    font-family: 'Orbitron',BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 65px;
+}
+
+h2 {
+    line-height: 15px;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.reptiles-entered {
+    text-align: center;
+    width: 500px;
+    height: 115px;
+    background-color: greenyellow;
+    color: #004b23;
+    margin: 300px auto 0 auto;
+    border-radius: 50%;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+  background: darkred;
+  border: 5px solid transparent;
+  border-image: repeating-linear-gradient( 45deg, green, yellowgreen 2%, lightgreen 1%, green 3%) 15;
+}
+
+#increment-btn:hover {
+  border-image: repeating-linear-gradient( 45deg, yellow, darkgreen 1%, green 1%, darkgreen 8%) 10;
+  color: darkgreen;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: yellow;
+}
+
+#save-btn {
+  background: darkgreen;
+  border: 5px solid pink;
+  border-image: repeating-linear-gradient( 45deg, yellow, green 8%, yellow 1%, green 1%) 1;
+}
+
+#save-btn:hover {
+  border-image: repeating-linear-gradient( 45deg, yellow, darkgreen 1%, green 1%, darkgreen 8%) 10;
+  color: darkgreen;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: yellow;
+}
+
+#save-el {
+  margin-top: 80px;
+  font-size: xx-large;
+}
+
